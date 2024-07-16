@@ -1,0 +1,54 @@
+.form {
+    background-color: #191919;
+    font-family: "Source Sans 3", sans-serif;
+    padding: 2% 5%;
+}
+
+.form h1 {
+    font-size: 60px;
+    padding: 0;
+    margin: 0;
+}
+
+.form h2 {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.form h1, .form h2 {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+}
+
+.form h3 {
+    color: white;
+    font-size: 36px;
+    font-weight: normal;
+    border-bottom: 2px solid #262626;
+    border-top: 2px solid #262626;
+    padding: 1%;
+}
+
+.xform {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+
+.campo-texto.invalido label {
+    color: #E53935;
+}
+
+.campo-texto.invalido input,
+.campo-texto.invalido select {
+    border: 2px solid #E53935;
+    color: #E53935;
+}
+
+.m_botoes {
+    display: flex;
+    gap: 1em;
+}

@@ -1,0 +1,38 @@
+
+.button{
+    text-transform: uppercase;
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    background-color: #191919;
+    border: 2px solid white;
+    justify-content: space-between;
+    border-radius: 8px;
+    padding: 0.5em 1.5em;
+    text-decoration: none;
+}
+
+.button:hover {
+    color: #2271D1 !important;
+    border: 2px solid #2271D1 !important; 
+    background-color: #191919;
+}
+
+.modal-content .button{
+    background-color: #03122F;
+}
+
+.modal-content .button:hover{
+    background-color: #03122F;
+}
+
+@media only screen and (max-width: 600px) {
+.button{
+    justify-content: space-around;
+    margin-left: 5%;
+}
+.imagem_nav {
+display: none;
+}
+}

@@ -1,0 +1,79 @@
+.time{
+    padding: 1% 0 0 3%;
+}
+.time h2{
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-size: 32px;
+    font-weight: bolder;
+    width: fit-content;
+    
+    border: 2px solid; 
+    padding: 0.1em 0.5em;
+    color: white;
+    border-radius: 10px;
+}
+
+.time .colaboradores{
+    display: flex;
+    padding-bottom: 1em;
+    gap: 2em;
+    overflow-x: auto;
+    scrollbar-color: #2271D1 #1B2838 ; 
+    scrollbar-width: thin;
+}
+
+/* CARD */
+.colaborador {
+    margin: 0.5em 0.5em;
+    border: 5px solid;
+    width: 432px;
+    box-shadow: 0px 1px 6px 7px;
+    border-radius: 1%;
+    position: relative;
+    z-index: 1;
+}
+
+.colaborador img {
+    width: 432px;
+    height: 260px;
+    position: relative;
+    border-radius: 3%;
+    border: 5px solid;
+}
+
+.colaborador div {
+    display: flex;
+    text-transform: uppercase;
+    justify-content: space-around;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+.opcoes{
+    background-color: black;
+    padding: 1em;
+
+}
+.opcoes span{
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+    .time .colaboradores{
+        flex-direction: column;
+        gap: 6em;
+        padding-bottom: 6em;
+    }
+    .colaborador img{
+        width: 289px;
+        height: 210px;
+    }
+    .colaborador{
+        width: 289px;
+        height: 210px;
+    }
+    }

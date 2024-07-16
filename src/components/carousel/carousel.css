@@ -1,0 +1,45 @@
+.carousel-1{
+    font-family: "Roboto", sans-serif;
+
+    background-image: url('background.png');
+    background-size: cover; /* Ajusta a imagem para cobrir todo o elemento */
+    background-position: center; /* Centraliza a imagem */
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: start;
+    gap: 10%;
+    padding: 6rem;
+    margin-bottom: -4rem;
+}
+
+
+.carousel-content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: 46px;
+}
+
+.carousel-content a{
+    text-transform: uppercase;
+    width: fit-content;
+    margin: 0;
+    padding: 0.1em 0.5em;
+    font-size: 48px;
+    color: white;
+    border-radius: 10px;
+    border: 2px solid #6BD1FF !important; 
+    background-color: #6BD1FF;
+}
+.carousel-content h2{
+    font-size: 46px;
+    color: white;
+    margin: 5% 0 0 0;
+}
+.carousel-content p{
+    font-size: 18px;
+    margin: 0;
+    color: white;
+}
